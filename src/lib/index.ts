@@ -1,3 +1,4 @@
+// Reexport your entry components here
 import LeafletMap from './components/LeafletMap.svelte';
 
 import Circle from './components/Circle.svelte';
@@ -15,9 +16,25 @@ import ScaleControl from './components/ScaleControl.svelte';
 import TileLayer from './components/TileLayer.svelte';
 import Tooltip from './components/Tooltip.svelte';
 
-import LeafletRotatedMarkersExtension from './extensions/RotatedMarkers';
+// import LeafletRotatedMarkersExtension from './extensions/RotatedMarkers';
 
-LeafletRotatedMarkersExtension.install();
+// LeafletRotatedMarkersExtension.install();
 
-export { LeafletMap, Circle, CircleMarker, GeoJSON, Icon, DivIcon, ImageOverlay, Marker, Polyline, Polygon, Popup, Rectangle, ScaleControl, TileLayer, Tooltip };
+export {
+	LeafletMap,
+	Circle,
+	CircleMarker,
+	GeoJSON,
+	Icon,
+	DivIcon,
+	ImageOverlay,
+	Marker,
+	Polyline,
+	Polygon,
+	Popup,
+	Rectangle,
+	ScaleControl,
+	TileLayer,
+	Tooltip
+};
 export default LeafletMap;
