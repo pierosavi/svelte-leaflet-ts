@@ -18,15 +18,15 @@ $ npm install -D rollup-plugin-postcss
 import postcss from 'rollup-plugin-postcss';
 
 export default {
-  plugins: [
-        svelte({
-            emitCss: true
-        }),
-        postcss({
-            extract: true
-        })
-  ]
-}
+	plugins: [
+		svelte({
+			emitCss: true
+		}),
+		postcss({
+			extract: true
+		})
+	]
+};
 ```
 
 Import the CSS (from the main Javascript file, typically `main.js`):
@@ -38,7 +38,7 @@ import 'leaflet/dist/leaflet.css';
 # Component import
 
 ```html
-<script> 
-    import LeafletMap from 'svelte-leafletjs';
+<script>
+	import LeafletMap from 'svelte-leafletjs';
 </script>
 ```

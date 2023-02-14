@@ -1,6 +1,7 @@
 # ScaleControl
 
 ## Basic usage
+
 ```example height:400
 <script>
     import {LeafletMap, TileLayer, ScaleControl} from 'svelte-leafletjs';
@@ -42,6 +43,6 @@ options  | Options.  | Object(undefined)
 
 ## Methods
 
-| Name              | Description |
-|-------------------|-------------|
+| Name              | Description                                                                                                            |
+| ----------------- | ---------------------------------------------------------------------------------------------------------------------- |
 | getScaleControl() | Returns the underlying Leaflet `Control.Scale` object instance. See https://leafletjs.com/reference.html#control-scale |

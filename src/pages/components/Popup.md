@@ -1,6 +1,7 @@
 # Popup
 
 ## Basic usage
+
 ```example height:400
 <script>
     import {LeafletMap, Icon, Marker, Popup, TileLayer} from 'svelte-leafletjs';
@@ -50,6 +51,6 @@ options        | Options.            | Object(undefined)
 
 ## Methods
 
-| Name       | Description |
-|------------|-------------|
+| Name       | Description                                                                                            |
+| ---------- | ------------------------------------------------------------------------------------------------------ |
 | getPopup() | Returns the underlying Leaflet `Popup` object instance. See https://leafletjs.com/reference.html#popup |

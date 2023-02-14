@@ -1,6 +1,7 @@
 # CircleMarker
 
 ## Basic usage
+
 ```example height:400
 <script>
     import {LeafletMap, CircleMarker, Polygon, Popup, TileLayer, Tooltip} from 'svelte-leafletjs';
@@ -59,6 +60,6 @@ options     | Options.                | Object(undefined)
 
 ## Methods
 
-| Name              | Description |
-|-------------------|-------------|
+| Name              | Description                                                                                                          |
+| ----------------- | -------------------------------------------------------------------------------------------------------------------- |
 | getCircleMarker() | Returns the underlying Leaflet `CircleMarker` object instance. See https://leafletjs.com/reference.html#circlemarker |

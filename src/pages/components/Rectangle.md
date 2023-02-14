@@ -1,6 +1,7 @@
 # Rectangle
 
 ## Basic usage
+
 ```example height:400
 <script>
     import {LeafletMap, Popup, Rectangle, TileLayer, Tooltip} from 'svelte-leafletjs';
@@ -55,6 +56,6 @@ options      | Options.                | Object(undefined)
 
 ## Methods
 
-| Name           | Description |
-|----------------|-------------|
+| Name           | Description                                                                                                    |
+| -------------- | -------------------------------------------------------------------------------------------------------------- |
 | getRectangle() | Returns the underlying Leaflet `Rectangle` object instance. See https://leafletjs.com/reference.html#rectangle |

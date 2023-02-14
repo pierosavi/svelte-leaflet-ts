@@ -1,6 +1,7 @@
 # Marker / DivIcon
 
 ## Basic usage
+
 ```example height:400
 <script>
     import {LeafletMap, DivIcon, Marker, TileLayer} from 'svelte-leafletjs';
@@ -50,6 +51,6 @@ options        | Options.            | Object(undefined)
 
 ## Methods
 
-| Name      | Description |
-|-----------|-------------|
+| Name      | Description                                                                                          |
+| --------- | ---------------------------------------------------------------------------------------------------- |
 | getIcon() | Returns the underlying Leaflet `Icon` object instance. See https://leafletjs.com/reference.html#icon |

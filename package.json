@@ -1,13 +1,13 @@
 {
 	"name": "svelte-leaflet-ts",
 	"version": "0.0.1",
-  "description": "Svelte component for leaflet",
-  "homepage": "https://ngyewch.github.io/svelte-leaflet/",
-  "license": "MIT",
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/ngyewch/svelte-leaflet.git"
-  },
+	"description": "Svelte component for leaflet",
+	"homepage": "https://ngyewch.github.io/svelte-leaflet/",
+	"license": "MIT",
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/ngyewch/svelte-leaflet.git"
+	},
 	"scripts": {
 		"dev": "vite dev",
 		"build": "svelte-kit sync && svelte-package",
@@ -40,8 +40,8 @@
 		"leaflet": "^1.9.3"
 	},
 	"type": "module",
-  "keywords": [
-    "svelte",
-    "leaflet"
-  ]
+	"keywords": [
+		"svelte",
+		"leaflet"
+	]
 }

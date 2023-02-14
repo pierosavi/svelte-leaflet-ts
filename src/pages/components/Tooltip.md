@@ -1,6 +1,7 @@
 # Tooltip
 
 ## Basic usage
+
 ```example height:400
 <script>
     import {LeafletMap, Marker, Popup, TileLayer, Tooltip} from 'svelte-leafletjs';
@@ -43,6 +44,6 @@ options        | Options.            | Object(undefined)
 
 ## Methods
 
-| Name         | Description |
-|--------------|-------------|
+| Name         | Description                                                                                                |
+| ------------ | ---------------------------------------------------------------------------------------------------------- |
 | getTooltip() | Returns the underlying Leaflet `Tooltip` object instance. See https://leafletjs.com/reference.html#tooltip |

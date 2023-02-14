@@ -1,6 +1,7 @@
 # Polygon
 
 ## Basic usage
+
 ```example height:400
 <script>
     import {LeafletMap, Polygon, Popup, TileLayer, Tooltip} from 'svelte-leafletjs';
@@ -53,6 +54,6 @@ options     | Options.                | Object(undefined)
 
 ## Methods
 
-| Name          | Description |
-|---------------|-------------|
+| Name         | Description                                                                                                |
+| ------------ | ---------------------------------------------------------------------------------------------------------- |
 | getPolygon() | Returns the underlying Leaflet `Polygon` object instance. See https://leafletjs.com/reference.html#polygon |

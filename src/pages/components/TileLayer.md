@@ -1,6 +1,7 @@
 # TileLayer
 
 ## Basic usage
+
 ```example height:400
 <script>
     import {LeafletMap, TileLayer} from 'svelte-leafletjs';
@@ -41,6 +42,6 @@ options | Options.                                                      | Object
 
 ## Methods
 
-| Name           | Description |
-|----------------|-------------|
+| Name           | Description                                                                                                    |
+| -------------- | -------------------------------------------------------------------------------------------------------------- |
 | getTileLayer() | Returns the underlying Leaflet `TileLayer` object instance. See https://leafletjs.com/reference.html#tilelayer |

@@ -23,8 +23,8 @@
 <div class="example">
     <LeafletMap options={mapOptions}>
         <TileLayer url={tileUrl} options={tileLayerOptions}/>
-        <Circle latLng={[1.250111, 103.830933]} radius={radius} color={color} fillColor={color} 
-                events={['mouseout', 'mouseover']} 
+        <Circle latLng={[1.250111, 103.830933]} radius={radius} color={color} fillColor={color}
+                events={['mouseout', 'mouseover']}
                 on:mouseout={e => {color = "#ff0000", radius = 1000}}
                 on:mouseover={e => {color = "#0000ff", radius = 2000}}>
             <Popup>Sentosa</Popup>

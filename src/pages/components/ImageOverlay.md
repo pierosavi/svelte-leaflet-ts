@@ -1,6 +1,7 @@
 # ImageOverlay
 
 ## Basic usage
+
 ```example height:400
 <script>
     import {LeafletMap, ImageOverlay, TileLayer} from 'svelte-leafletjs';
@@ -25,8 +26,8 @@
 <div class="example">
     <LeafletMap options={mapOptions}>
         <TileLayer url={tileUrl} options={tileLayerOptions}/>
-        <ImageOverlay imageUrl="static/dpsri_70km_2021082110500000dBR.dpsri.png" 
-                      bounds={bounds} 
+        <ImageOverlay imageUrl="static/dpsri_70km_2021082110500000dBR.dpsri.png"
+                      bounds={bounds}
                       options={imageOverlayOptions}/>
     </LeafletMap>
 </div>
@@ -45,6 +46,6 @@ options  | Options.                      | Object(undefined)
 
 ## Methods
 
-| Name          | Description |
-|---------------|-------------|
+| Name              | Description                                                                                                          |
+| ----------------- | -------------------------------------------------------------------------------------------------------------------- |
 | getImageOverlay() | Returns the underlying Leaflet `ImageOverlay` object instance. See https://leafletjs.com/reference.html#imageoverlay |

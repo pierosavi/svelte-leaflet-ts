@@ -15,26 +15,29 @@ Svelte component for [leaflet](https://leafletjs.com/)
 
 ### v0.10.0
 
-* GeoJSON 
-    * Removed dependency on `axios`.
-    * The `url` property is removed. This is replaced by `data`.
+- GeoJSON
+  - Removed dependency on `axios`.
+  - The `url` property is removed. This is replaced by `data`.
 
 ## Component support
 
 - [x] Map
 
 UI layers:
+
 - [x] Marker
 - [x] Popup
 - [x] Tooltip
 
 Raster layers:
+
 - [x] TileLayer
 - [x] TileLayer.WMS
 - [x] ImageOverlay
 - [ ] VideoOverlay
 
 Vector layers:
+
 - [x] Polyline
 - [x] Polygon
 - [x] Rectangle
@@ -43,15 +46,18 @@ Vector layers:
 - [ ] SVGOverlay
 
 Other layers:
+
 - [ ] LayerGroup
 - [ ] FeatureGroup
 - [x] GeoJSON
 
 Basic types:
+
 - [x] Icon
 - [x] DivIcon
 
 Controls:
+
 - [ ] Zoom
 - [ ] Attribution
 - [ ] Layers

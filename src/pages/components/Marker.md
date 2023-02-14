@@ -1,6 +1,7 @@
 # Marker
 
 ## Basic usage
+
 ```example height:400
 <script>
     import {LeafletMap, Marker, TileLayer} from 'svelte-leafletjs';
@@ -37,12 +38,12 @@ zIndexOffset   | z-index offset.     | Number(0)
 icon           | TODO L.Icon.Default | String
 opacity        | Opacity.            | Number(1.0)
 rotationAngle  | Rotation angle.     | Number(0)
-rotationOrigin | Rotation origin.    | String("center bottom") 
+rotationOrigin | Rotation origin.    | String("center bottom")
 options        | Options.            | Object(undefined)
 ```
 
 ## Methods
 
-| Name        | Description |
-|-------------|-------------|
+| Name        | Description                                                                                              |
+| ----------- | -------------------------------------------------------------------------------------------------------- |
 | getMarker() | Returns the underlying Leaflet `Marker` object instance. See https://leafletjs.com/reference.html#marker |
