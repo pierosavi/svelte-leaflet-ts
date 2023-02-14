@@ -17,7 +17,6 @@ import TileLayer from './components/TileLayer.svelte';
 import Tooltip from './components/Tooltip.svelte';
 
 // import LeafletRotatedMarkersExtension from './extensions/RotatedMarkers';
-
 // LeafletRotatedMarkersExtension.install();
 
 export {
